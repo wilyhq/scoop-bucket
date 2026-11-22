@@ -1,0 +1,17 @@
+{
+    "version": "0.1.6",
+    "description": "wily CLI: browser cores, profiles and the wily API from a terminal",
+    "homepage": "https://wily.bot/",
+    "license": {
+        "identifier": "Proprietary",
+        "url": "https://wily.bot/"
+    },
+    "notes": "Updates itself from updates.wily.bot: `wily self-update`.",
+    "architecture": {
+        "64bit": {
+            "url": "https://dl.wily.bot/installers/windows/wily-0.1.6-6a08656-windows-x64.zip",
+            "hash": "de3608cb3a10275276f3f321b15de963d9eafba458de2f49de28e1b7d4ac54af"
+        }
+    },
+    "bin": "wily.exe"
+}
