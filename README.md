@@ -2,6 +2,15 @@
 
 Scoop bucket for [wily](https://wily.bot).
 
+Without git (no bucket, no 7-Zip needed):
+
+```powershell
+scoop install https://raw.githubusercontent.com/wilyhq/scoop-bucket/main/bucket/wily.json      # app + CLI
+scoop install https://raw.githubusercontent.com/wilyhq/scoop-bucket/main/bucket/wily-cli.json  # only the CLI
+```
+
+With git:
+
 ```powershell
 scoop bucket add wilyhq https://github.com/wilyhq/scoop-bucket
 scoop install wilyhq/wily        # desktop app + CLI (Start menu shortcut, `wily` on PATH)
